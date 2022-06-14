@@ -8,6 +8,7 @@ import { ProfileComponent } from './component/profile/profile.component';
 import { LoginComponent } from './component/login/login.component';
 import { LogoutComponent } from './component/logout/logout.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { BackingComponent } from './component/backing/backing.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     HomePageComponent,
     ProfileComponent,
     LoginComponent,
-    LogoutComponent
+    LogoutComponent,
+    BackingComponent
   ],
   imports: [
     BrowserModule,
